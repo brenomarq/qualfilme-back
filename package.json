@@ -16,5 +16,11 @@
     "url": "https://github.com/brenomarq/qualfilme-back/issues"
   },
   "homepage": "https://github.com/brenomarq/qualfilme-back#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0"
+  }
 }
