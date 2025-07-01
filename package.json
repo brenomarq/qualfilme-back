@@ -1,0 +1,20 @@
+{
+  "name": "qualfilme-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenomarq/qualfilme-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brenomarq/qualfilme-back/issues"
+  },
+  "homepage": "https://github.com/brenomarq/qualfilme-back#readme",
+  "description": ""
+}
