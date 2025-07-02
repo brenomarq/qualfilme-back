@@ -17,6 +17,7 @@ async function authenticateFirebaseToken(req, res, next) {
 
     req.user = decodedToken;
 
+    console.log("Token validado com sucesso!");
     next();
   } catch (error) {
     console.error("Erro ao verificar Firebase ID Token:", error.message);

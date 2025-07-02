@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const admin = require("firebase-admin");
 const cors = require("cors");
+const axios = require("axios");
 
 const { authenticateFirebaseToken } = require("./middlewares/authMiddleware");
 const serviceAccount = require("./serviceAccountKey.json");
